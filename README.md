@@ -4,23 +4,23 @@ This repo contains sort and small programs for haskell language that have implem
 Below you can find the purpose of each program.
 
 #### **_counter.hs_**
-Take an integer as input and checks if these digits 0,3,6 and 9 exists in the integer. If they are exists, calculate how many times are in the given number.
+Take an integer as input and checks if the digits 0,3,6 and 9 exists in the integer. If they exists, calculate how many times are in the given number.
 
 #### **_gcd.hs_**
-Take 3 positive integers as input (m,n,k) and finds the k-th greates common divisor of m and n.
+Take 3 positive integers as input (m,n,k) and finds the k-th greatest common divisor of m and n.
 
 #### **_seconds.hs_**
-Calculates the seconds that have passes from the begging of the year trhow a given date and time. For example if we want to calculate the second until 20/5 23:55:30
+Calculates the seconds that have passed from the start of the year until a given date and time. For example if we want to calculate the seconds until 20/5 23:55:30
 the given input it will be seconds (20,5) (23,55,30).
 
 #### **_sum.hs_**
 Take as input one function f with type (int->int->int->int) and 2 integers a and b and calculate the sum from k=a to b of f(a,k,b).
 
 #### **_nearest.hs_**
-Take as input a list of integer and one extra integer(n) and returns the position of the list that contains the elemnts whith smallest different from n.
+Take as input a list of integer and one extra integer(n) and returns the position of the list that contains the elemnts whith the  smallest different from n.
 
 #### **_smooth.hs_**
-Take as input a list of integer(s) and one extra integer(k) and return a list of integers. In that list the i-th element is the integer part of the average value of k-th elements that are located at i,i+1,..., i+k−1 positions at s list. The list that we retun has |s|-k+1 elements, where |s| is the length of the list s if |s|>k else the return list is an empty list. 
+Take as input a list of integer(s) and one extra integer(k) and return a list of integers. In that list the i-th element is the integer part of the average value of k-th elements that are located at i,i+1,..., i+k−1 positions at s list. The list that we retun has |s|-k+1 elements, where |s| is the length of the list s if |s|>k else the return list is an empty list. For example smooth [2,25,16,7,1,32,50,5,87,0] 1 it will return [2,25,16,7,1,32,50,5,87,0] and  smooth [2,25,16,7,1,32,50,5,87,0] 5 it will return [10,16,21,19,35,34].
 
 #### **_swap.hs_**
 Take as input some words and swap their position per 2. For exaple the string " you are smart " it will converted to " are you smart". Another example is the string "east west north south" it will converted to "west east south north".
