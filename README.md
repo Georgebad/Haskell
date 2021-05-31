@@ -16,14 +16,14 @@ the given input it will be seconds (20,5) (23,55,30).
 #### **_sum.hs_**
 Take as input one function f with type (int->int->int->int) and 2 integers a and b and calculate the sum from k=a to b of f(a,k,b).
 
-### **_nearest.hs_**
+#### **_nearest.hs_**
 Take as input a list of integer and one extra integer(n) and returns the position of the list that contains the elemnts whith smallest different from n.
 
-### **_smooth.hs_**
+#### **_smooth.hs_**
 Take as input a list of integer(s) and one extra integer(k) and return a list of integers. In that list the i-th element is the integer part of the average value of k-th elements that are located at i,i+1,..., i+k−1 positions at s list. The list that we retun has |s|-k+1 elements, where |s| is the length of the list s if |s|>k else the return list is an empty list. 
 
-### **_swap.hs_**
+#### **_swap.hs_**
 Take as input some words and swap their position per 2. For exaple the string " you are smart " it will converted to " are you smart". Another example is the string "east west north south" it will converted to "west east south north".
 
-### **_mapi.hs_**
+#### **_mapi.hs_**
 Take as input a list(s) with type [u] and a function (u->Int->v) and returns a list with type [v]. The returned list has the same number of elements as s and the i-th element is f(s(i), i).An example is for input mapi [90,80..10] (+) the result is [91,82,73,64,55,46,37,28,19].
